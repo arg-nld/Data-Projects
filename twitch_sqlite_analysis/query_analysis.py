@@ -51,5 +51,18 @@ ORDER BY avg_followers_gained DESC;
 """
 print(pd.read_sql_query(query3, conn))
 
+# ---------------------------------------------------------
+# Query 4: Which game brings in the most followers?
+# ---------------------------------------------------------
+print("\n--- WHICH GAME BRINGS IN THE MOST FOLLOWERS? ---")
+query4 = """
+SELECT most_streamed_game, ROUND(AVG(followers_gained_per_stream), 0) AS avg_followers_gained
+FROM streamers
+GROUP BY most_streamed_game
+ORDER BY avg_followers_gained DESC
+LIMIT 5;
+"""
+print(pd.read_sql_query(query4, conn))
+
 # Always close the connection
 conn.close()
