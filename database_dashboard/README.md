@@ -1,4 +1,5 @@
 # Steam Games Dashboard: Data Cleaning & ETL Pipeline
+* **Dataset Link:** [Steam Games Dataset (March 2025)](https://www.kaggle.com/datasets/artermiloff/steam-games-dataset) by Artemiy Ermilov.
 
 I am building an interactive market analysis dashboard using a massive dataset of Steam games (updated March 2025). 
 
