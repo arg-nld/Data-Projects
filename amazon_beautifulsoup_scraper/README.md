@@ -6,7 +6,7 @@ A Python-based web scraper that extracts real-time ranking data from Amazon's Bo
 
 
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 * **Python 3**
 
@@ -22,7 +22,7 @@ A Python-based web scraper that extracts real-time ranking data from Amazon's Bo
 
 
 
-### 💡 Key Challenges & Solutions
+### Key Challenges & Solutions
 
 
 
@@ -42,7 +42,7 @@ Building a stable scraper for Amazon requires handling a few real-world edge cas
 
 
 
-### 🚀 How to Run
+### How to Run
 
 
 
